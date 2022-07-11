@@ -42,8 +42,8 @@ public class Chapter4_WindowManagement {
     driver.findElement(By.id("SubmitCreate")).click();
 
     // Get The Window ID Handles
-    Set<String> allWindowTabss= driver.getWindowHandles();
-    Iterator<String> iterate = allWindowTabss.iterator();
+    Set<String> allWindowTabs = driver.getWindowHandles();
+    Iterator<String> iterate = allWindowTabs.iterator();
     String mainFirstWindow = iterate.next();
 
     // Switch & Work In The Main Window Or Tab
